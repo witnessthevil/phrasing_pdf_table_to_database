@@ -77,3 +77,92 @@
 2022.11.08 23:20:29 INFO  time: Imported build in 0.26s
 2022.11.08 23:20:38 INFO  time: indexed workspace in 7.66s
 2022.11.08 23:20:49 INFO  time: code lens generation in 3.16s
+2022.11.08 23:27:17 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+11月 08, 2022 11:27:17 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 27
+11月 08, 2022 11:27:17 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 30
+11月 08, 2022 11:27:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 32
+11月 08, 2022 11:27:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 29
+2022.11.08 23:27:28 INFO  time: compiled new_project_processing_diff_some_pdf_file in 10s
+11月 08, 2022 11:27:34 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 72
+11月 08, 2022 11:27:34 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 73
+2022.11.08 23:27:36 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:27:43 INFO  time: compiled new_project_processing_diff_some_pdf_file in 7.24s
+2022.11.08 23:28:43 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:28:44 INFO  time: compiled new_project_processing_diff_some_pdf_file in 1.38s
+2022.11.08 23:31:19 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:31:21 INFO  time: compiled new_project_processing_diff_some_pdf_file in 2.66s
+11月 08, 2022 11:31:42 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 191
+11月 08, 2022 11:32:10 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 221
+11月 08, 2022 11:32:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 247
+2022.11.08 23:32:36 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:32:40 INFO  time: compiled new_project_processing_diff_some_pdf_file in 4.05s
+2022.11.08 23:34:32 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:34:39 INFO  time: compiled new_project_processing_diff_some_pdf_file in 6.68s
+11月 08, 2022 11:35:10 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 496
+11月 08, 2022 11:36:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 635
+11月 08, 2022 11:36:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 638
+2022.11.08 23:36:15 INFO  time: code lens generation in 1.22s
+2022.11.08 23:36:22 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:36:29 INFO  time: compiled new_project_processing_diff_some_pdf_file in 7.12s
+11月 08, 2022 11:36:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 704
+11月 08, 2022 11:37:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 833
+2022.11.08 23:39:51 INFO  time: code lens generation in 1.11s
+2022.11.08 23:39:52 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/wp/bp9bp3r953bf437bj18swwx40000gn/T/metals1677144167985911382/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.08 23:39:57 INFO  [info] welcome to sbt 1.7.2 (AdoptOpenJDK Java 1.8.0_292)
+2022.11.08 23:40:00 INFO  [info] loading global plugins from /Users/danie/.sbt/1.0/plugins
+2022.11.08 23:40:03 INFO  [info] loading settings for project new_project_processing_diff_some_pdf_file-build-build from metals.sbt ...
+2022.11.08 23:40:03 INFO  [info] loading project definition from /Users/danie/new_project_processing_diff_some_pdf_file/project/project
+2022.11.08 23:40:04 INFO  [info] loading settings for project new_project_processing_diff_some_pdf_file-build from metals.sbt ...
+2022.11.08 23:40:04 INFO  [info] loading project definition from /Users/danie/new_project_processing_diff_some_pdf_file/project
+2022.11.08 23:40:09 INFO  [success] Generated .bloop/new_project_processing_diff_some_pdf_file-build.json
+2022.11.08 23:40:09 INFO  [success] Total time: 5 s, completed 2022年11月8日 下午11:40:10
+2022.11.08 23:40:16 INFO  [info] loading settings for project new_project_processing_diff_some_pdf_file from build.sbt ...
+2022.11.08 23:40:16 INFO  [info] set current project to hello-world (in build file:/Users/danie/new_project_processing_diff_some_pdf_file/)
+2022.11.08 23:40:33 INFO  [success] Generated .bloop/new_project_processing_diff_some_pdf_file.json
+2022.11.08 23:40:33 INFO  [success] Generated .bloop/new_project_processing_diff_some_pdf_file-test.json
+2022.11.08 23:40:34 INFO  [success] Total time: 16 s, completed 2022年11月8日 下午11:40:33
+2022.11.08 23:40:35 INFO  time: ran 'sbt bloopInstall' in 42s
+2022.11.08 23:40:35 INFO  Disconnecting from Bloop session...
+2022.11.08 23:40:36 INFO  Shut down connection with build server.
+2022.11.08 23:40:36 INFO  Shut down connection with build server.
+2022.11.08 23:40:36 INFO  Attempting to connect to the build server...
+2022.11.08 23:40:36 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@17/17.0.4.1_1/libexec/openjdk.jdk/Contents/Home defined at /Users/danie/.bloop/bloop.json
+2022.11.08 23:40:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/bsp.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.08 23:40:37 INFO  Attempting to connect to the build server...
+2022.11.08 23:40:37 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@17/17.0.4.1_1/libexec/openjdk.jdk/Contents/Home defined at /Users/danie/.bloop/bloop.json
+2022.11.08 23:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/project/.metals/bsp.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.08 23:40:37 INFO  time: Connected to build server in 2.21s
+2022.11.08 23:40:37 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.08 23:40:38 INFO  time: Imported build in 0.19s
+2022.11.08 23:40:47 INFO  time: indexed workspace in 8.91s
+2022.11.08 23:40:50 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:40:59 INFO  time: compiled new_project_processing_diff_some_pdf_file in 8.98s
+11月 08, 2022 11:41:46 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1055
+11月 08, 2022 11:42:00 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1090
+2022.11.08 23:42:46 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:42:52 INFO  time: compiled new_project_processing_diff_some_pdf_file in 6.83s
+11月 08, 2022 11:43:28 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1214
+11月 08, 2022 11:43:34 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1235
+11月 08, 2022 11:43:34 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1237
+2022.11.08 23:43:40 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:43:46 INFO  time: compiled new_project_processing_diff_some_pdf_file in 5.22s
+2022.11.08 23:43:46 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
