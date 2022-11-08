@@ -508,3 +508,7 @@ Debuggee JVM version: 1.8.0_292
 2022.11.09 00:21:09 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 2022.11.09 00:21:15 INFO  Canceling debug proxy for [Main]
 2022.11.09 00:21:15 INFO  Closing debug server tcp://0.0.0.0:56582
+11月 09, 2022 12:30:27 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2622
+11月 09, 2022 12:30:43 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2624
