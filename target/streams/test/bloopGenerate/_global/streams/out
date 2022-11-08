@@ -1,0 +1,4 @@
+[debug] [new_project_processing_diff_some_pdf_file-test] Classpath dependencies List()
+[debug] [new_project_processing_diff_some_pdf_file-test] Dependencies from configurations List(new_project_processing_diff_some_pdf_file)
+[debug] Bloop wrote the configuration of project 'new_project_processing_diff_some_pdf_file-test' to '/Users/danie/new_project_processing_diff_some_pdf_file/.bloop/new_project_processing_diff_some_pdf_file-test.json'
+[success] Generated .bloop/new_project_processing_diff_some_pdf_file-test.json
