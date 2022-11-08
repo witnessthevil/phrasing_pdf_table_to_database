@@ -166,3 +166,345 @@
 2022.11.08 23:43:40 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
 2022.11.08 23:43:46 INFO  time: compiled new_project_processing_diff_some_pdf_file in 5.22s
 2022.11.08 23:43:46 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:45:08 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:17 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:20 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:21 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:23 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:46:24 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:46:26 INFO  time: compiled new_project_processing_diff_some_pdf_file in 2.19s
+2022.11.08 23:46:38 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:46:40 INFO  time: compiled new_project_processing_diff_some_pdf_file in 1.4s
+2022.11.08 23:46:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.08 23:46:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.08 23:46:52 INFO  Starting debug proxy for [Main]
+2022.11.08 23:46:58 INFO  Trying to attach to remote debuggee VM localhost:55450 .
+2022.11.08 23:46:58 INFO  Attaching to debuggee VM succeeded.
+2022.11.08 23:46:58 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.08 23:46:58 ERROR Exception in thread "main" java.io.FileNotFoundException: https:/www.censtatd.gov.hk/en/data/stat_report/product/B1120106/att/B11201062021XXXXB01.pdf (No such file or directory)
+2022.11.08 23:46:58 ERROR 	at java.io.FileInputStream.open0(Native Method)
+2022.11.08 23:46:58 ERROR 	at java.io.FileInputStream.open(FileInputStream.java:195)
+2022.11.08 23:46:58 ERROR 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+2022.11.08 23:46:58 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:16)
+2022.11.08 23:46:58 ERROR 	at Main$delayedInit$body.apply(Main.scala:10)
+2022.11.08 23:46:58 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.11.08 23:46:58 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.11.08 23:46:58 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.11.08 23:46:58 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2022.11.08 23:46:58 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2022.11.08 23:46:58 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2022.11.08 23:46:58 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2022.11.08 23:46:58 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2022.11.08 23:46:58 ERROR 	at scala.App.main(App.scala:76)
+2022.11.08 23:46:58 ERROR 	at scala.App.main$(App.scala:74)
+2022.11.08 23:46:58 ERROR 	at Main$.main(Main.scala:10)
+2022.11.08 23:46:58 ERROR 	at Main.main(Main.scala)
+2022.11.08 23:46:58 INFO  Closing debug server tcp://0.0.0.0:55445
+11月 08, 2022 11:47:00 下午 org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+資訊: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.11.08 23:47:00 INFO  Canceling debug proxy for [Main]
+11月 08, 2022 11:47:00 下午 org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+嚴重: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+11月 08, 2022 11:49:55 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1338
+2022.11.08 23:50:08 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:50:11 INFO  time: compiled new_project_processing_diff_some_pdf_file in 2.75s
+2022.11.08 23:50:16 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 9m 38.574s)
+2022.11.08 23:50:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.08 23:50:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.08 23:50:17 INFO  Starting debug proxy for [Main]
+2022.11.08 23:50:22 INFO  Trying to attach to remote debuggee VM localhost:55639 .
+2022.11.08 23:50:22 INFO  Attaching to debuggee VM succeeded.
+2022.11.08 23:50:22 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.08 23:50:22 ERROR SLF4J: No SLF4J providers were found.
+2022.11.08 23:50:22 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022.11.08 23:50:22 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2022.11.08 23:50:32 INFO  Closing debug server tcp://0.0.0.0:55634
+2022.11.08 23:50:32 INFO  Canceling debug proxy for [Main]
+11月 08, 2022 11:51:12 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1437
+11月 08, 2022 11:51:12 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1436
+11月 08, 2022 11:51:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1449
+11月 08, 2022 11:51:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1450
+11月 08, 2022 11:51:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1452
+11月 08, 2022 11:51:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1454
+2022.11.08 23:52:00 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:52:09 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 11m 31.72s)
+2022.11.08 23:52:09 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:52:11 INFO  time: compiled new_project_processing_diff_some_pdf_file in 1.07s
+2022.11.08 23:52:11 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 11m 33.212s)
+2022.11.08 23:52:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.08 23:52:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.08 23:52:11 INFO  Starting debug proxy for [Main]
+2022.11.08 23:52:16 INFO  Trying to attach to remote debuggee VM localhost:55668 .
+2022.11.08 23:52:16 INFO  Attaching to debuggee VM succeeded.
+2022.11.08 23:52:16 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.08 23:52:16 ERROR SLF4J: No SLF4J providers were found.
+2022.11.08 23:52:16 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022.11.08 23:52:16 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2022.11.08 23:52:26 INFO  Closing debug server tcp://0.0.0.0:55664
+2022.11.08 23:52:26 INFO  Canceling debug proxy for [Main]
+11月 08, 2022 11:53:52 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1644
+11月 08, 2022 11:53:55 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1659
+11月 08, 2022 11:56:04 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1987
+2022.11.08 23:56:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:08 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:56:10 INFO  time: compiled new_project_processing_diff_some_pdf_file in 1.5s
+2022.11.08 23:56:10 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:21 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:25 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+11月 08, 2022 11:56:26 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2019
+2022.11.08 23:56:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:28 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:29 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:31 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:32 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:33 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:35 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:41 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:42 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:44 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:45 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:49 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:49 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:49 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:51 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:52 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:52 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:54 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:56 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:57 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:58 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:56:59 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:01 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:01 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:03 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:17 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:20 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:22 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:23 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:23 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:24 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:25 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:25 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:26 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:29 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:29 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:31 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:35 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:35 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:57:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:00 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:02 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:05 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:06 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:06 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:07 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+11月 08, 2022 11:58:10 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2288
+2022.11.08 23:58:29 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scalaException in thread "pool-8-thread-1" 
+2022.11.08 23:58:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scalajava.lang.Error: java.lang.InterruptedException
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+11月 08, 2022 11:58:31 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2307
+2022.11.08 23:58:31 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:31 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:32 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+11月 08, 2022 11:58:32 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2315
+2022.11.08 23:58:35 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:36 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:37 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:38 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:39 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:40 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:44 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:46 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:46 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:47 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:54 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:54 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:56 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:56 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:58:57 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:58:59 INFO  time: compiled new_project_processing_diff_some_pdf_file in 1.11s
+2022.11.08 23:58:59 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:25 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+Exception in thread "pool-8-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.11.08 23:59:27 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:30 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:31 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:59:31 INFO  time: compiled new_project_processing_diff_some_pdf_file in 0.82s
+2022.11.08 23:59:32 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:40 WARN  Could not load snapshot text for /Users/danie/new_project_processing_diff_some_pdf_file/src/main/scala/Main.scala
+2022.11.08 23:59:42 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.08 23:59:45 INFO  time: compiled new_project_processing_diff_some_pdf_file in 2.21s
+2022.11.08 23:59:51 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 19m 13.703s)
+2022.11.08 23:59:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.08 23:59:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.08 23:59:52 INFO  Starting debug proxy for [Main]
+2022.11.08 23:59:57 INFO  Trying to attach to remote debuggee VM localhost:55889 .
+2022.11.08 23:59:57 INFO  Attaching to debuggee VM succeeded.
+2022.11.08 23:59:57 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.08 23:59:57 ERROR SLF4J: No SLF4J providers were found.
+2022.11.08 23:59:57 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022.11.08 23:59:57 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2022.11.09 00:00:02 INFO  Canceling debug proxy for [Main]
+2022.11.09 00:00:02 INFO  Closing debug server tcp://0.0.0.0:55884
+2022.11.09 00:18:49 INFO  time: code lens generation in 4.17s
+2022.11.09 00:19:02 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.09 00:19:04 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 38m 26.363s)
+2022.11.09 00:19:04 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.09 00:19:09 INFO  time: compiled new_project_processing_diff_some_pdf_file in 4.81s
+2022.11.09 00:19:09 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 38m 31.34s)
+2022.11.09 00:19:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.09 00:19:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.09 00:19:19 INFO  Starting debug proxy for [Main]
+2022.11.09 00:19:21 INFO  Trying to attach to remote debuggee VM localhost:56551 .
+2022.11.09 00:19:21 INFO  Attaching to debuggee VM succeeded.
+2022.11.09 00:19:21 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.09 00:19:21 ERROR SLF4J: No SLF4J providers were found.
+2022.11.09 00:19:21 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022.11.09 00:19:21 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2022.11.09 00:19:27 INFO  Closing debug server tcp://0.0.0.0:56547
+2022.11.09 00:19:27 INFO  Canceling debug proxy for [Main]
+11月 09, 2022 12:19:39 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2468
+2022.11.09 00:20:57 INFO  compiling new_project_processing_diff_some_pdf_file (1 scala source)
+2022.11.09 00:21:01 INFO  time: compiled new_project_processing_diff_some_pdf_file in 4.3s
+2022.11.09 00:21:01 INFO  Deduplicating compilation of new_project_processing_diff_some_pdf_file from bsp client 'Metals 0.11.9' (since 40m 23.856s)
+2022.11.09 00:21:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-server.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.11.09 00:21:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_project_processing_diff_some_pdf_file/.metals/dap-client.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.11.09 00:21:03 INFO  Starting debug proxy for [Main]
+2022.11.09 00:21:09 INFO  Trying to attach to remote debuggee VM localhost:56587 .
+2022.11.09 00:21:09 INFO  Attaching to debuggee VM succeeded.
+2022.11.09 00:21:09 WARN  [Warn] The debugger and the debuggee are running in different versions of JVMs. You could see wrong source mapping results.
+Debugger JVM version: 17.0.4.1
+Debuggee JVM version: 1.8.0_292
+2022.11.09 00:21:09 ERROR SLF4J: No SLF4J providers were found.
+2022.11.09 00:21:09 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022.11.09 00:21:09 ERROR SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2022.11.09 00:21:15 INFO  Canceling debug proxy for [Main]
+2022.11.09 00:21:15 INFO  Closing debug server tcp://0.0.0.0:56582
