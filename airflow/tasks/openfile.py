@@ -46,4 +46,3 @@ with open("/Users/danie/new_project_processing_diff_some_pdf_file/example.txt",'
             if i <= len(final_list[1]) - 1:
                 line = identifier[i] + "," + final_list[0][i] + "," + final_list[1][i] 
                 csvfile.write(line + "\n")
-        
