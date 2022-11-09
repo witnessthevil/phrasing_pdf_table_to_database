@@ -1,6 +1,5 @@
 import re
-
-
+# use perf counter to check for the most accurate solution
 with open("/Users/danie/new_project_processing_diff_some_pdf_file/example.txt",'r') as r:
     file_content = r.read()
     page_four = "4 |   2020 World Population Data Sheet"
