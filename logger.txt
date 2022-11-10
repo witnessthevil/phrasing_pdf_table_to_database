@@ -17,3 +17,18 @@
 2022-11-10 17:28:20,046  - openfile.py - INFO - successfully load two file
 2022-11-10 17:28:20,046  - openfile.py - INFO - Extract CPU usage 100.0%
 2022-11-10 17:28:20,046  - openfile.py - INFO - writing pdf txt to csv have used 0.003028832987183705s
+2022-11-10 17:36:04,011  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 17:36:04,014  - openfile.py - INFO - now writing the csv file
+2022-11-10 17:36:04,015  - openfile.py - INFO - successfully load two file
+2022-11-10 17:36:04,015  - openfile.py - INFO - Extract CPU usage 100.0%
+2022-11-10 17:36:04,015  - openfile.py - INFO - writing pdf txt to csv have used 0.003624542005127296s
+2022-11-10 17:36:30,160  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 17:36:30,163  - openfile.py - INFO - now writing the csv file
+2022-11-10 17:36:30,164  - openfile.py - INFO - successfully load two file
+2022-11-10 17:36:30,164  - openfile.py - INFO - Extract CPU usage 66.7%
+2022-11-10 17:36:30,164  - openfile.py - INFO - writing pdf txt to csv have used 0.003211250004824251s
+2022-11-10 17:36:47,922  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 17:36:47,926  - openfile.py - INFO - now writing the csv file
+2022-11-10 17:36:47,926  - openfile.py - INFO - successfully load two file
+2022-11-10 17:36:47,926  - openfile.py - INFO - Extract CPU usage 80.0%
+2022-11-10 17:36:47,926  - openfile.py - INFO - writing pdf txt to csv have used 0.0035586660087574273s

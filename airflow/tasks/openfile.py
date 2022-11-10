@@ -50,6 +50,7 @@ def writing_2_file_to_csv(file):
                             + "," + list(d1[1].values())[0]
                             ,merge_list))
     
+    final_data = list(map(lambda x: x.replace("—","null"), final_data))
 
     logger.info("now writing the csv file")
     writing_to_csv(*("/Users/danie/new_thing/example.csv",final_data))
