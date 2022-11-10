@@ -8,9 +8,8 @@ import psutil
 
 logger = Logger().get_logger(__name__)
 
-file_1 = "/tmp/example.csv"
+file_1 = "/tmp/world_data4.csv"
 config = dotenv_values(os.path.join(os.path.dirname(__file__),"environment.env"))
-print(config)
 s3_client = boto3.client(
             service_name='s3',
             region_name=config["region"],
@@ -20,7 +19,7 @@ s3_client = boto3.client(
 if __name__ == "__main__":
     logger.info("now performing the load part!")
     start_time = time.perf_counter()
-    s3_client.upload_file(file_1,config["bucket_name"],"file1.csv")
+    s3_client.upload_file(file_1,config["bucket_name"],"file_reset4.csv")
     end_time = time.perf_counter()
     logger.info(f'Extract CPU usage {psutil.cpu_percent()}%')
     logger.info(f"writing csv to s3 have used {end_time - start_time}s")

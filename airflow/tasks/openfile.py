@@ -46,14 +46,14 @@ def writing_2_file_to_csv(file):
     merge_list = list(zip(final_list_1,final_list_2))
 
     final_data = list(map(lambda d1: list(d1[0].keys())[0] 
-                            + ',' + list(d1[0].values())[0] 
+                            + ',' + list(d1[0].values())[0].replace("g","")
                             + "," + list(d1[1].values())[0]
                             ,merge_list))
     
-    final_data = list(map(lambda x: x.replace("—","null"), final_data))
+    final_data = list(map(lambda x: x.replace("—","0"), final_data))
 
     logger.info("now writing the csv file")
-    writing_to_csv(*("/Users/danie/new_thing/example.csv",final_data))
+    writing_to_csv(*("/tmp/world_data4.csv",final_data))
     logger.info("successfully load two file")
 
 if __name__ == "__main__":
