@@ -540,3 +540,17 @@ Debuggee JVM version: 1.8.0_292
 2022.11.09 17:28:33 INFO  time: indexed workspace in 4.42s
 11月 09, 2022 5:32:51 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 資訊: Unsupported notification method: $/setTrace
+2022.11.10 09:18:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_thing/.metals/lsp.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.11.10 09:19:00 INFO  logging to file /Users/danie/new_thing/.metals/metals.log
+2022.11.10 09:19:00 INFO  Started: Metals version 0.11.9 in workspace '/Users/danie/new_thing' for client Visual Studio Code 1.71.2.
+2022.11.10 09:19:03 INFO  time: initialize in 2.85s
+2022.11.10 09:19:03 INFO  Attempting to connect to the build server...
+2022.11.10 09:19:03 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@17/17.0.4.1_1/libexec/openjdk.jdk/Contents/Home defined at /Users/danie/.bloop/bloop.json
+2022.11.10 09:19:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_thing/.metals/bsp.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.10 09:19:06 INFO  Attempting to connect to the build server...
+2022.11.10 09:19:06 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@17/17.0.4.1_1/libexec/openjdk.jdk/Contents/Home defined at /Users/danie/.bloop/bloop.json
+2022.11.10 09:19:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/danie/new_thing/project/.metals/bsp.trace.json or /Users/danie/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.10 09:19:06 INFO  time: Connected to build server in 2.98s
+2022.11.10 09:19:06 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.10 09:19:06 INFO  time: Imported build in 0.21s
+2022.11.10 09:19:14 INFO  time: indexed workspace in 7.69s

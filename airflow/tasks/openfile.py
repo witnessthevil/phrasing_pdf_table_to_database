@@ -44,9 +44,9 @@ def writing_2_file_to_csv(file):
             for i in list:
                 csvfile.write(i + '\n')
     logger.info("now writing the first csv file")
-    writing_to_csv(*("/tmp/example1.csv",final_list_1))
+    writing_to_csv(*("/Users/danie/new_thing/example1.csv",final_list_1))
     logger.info("now writing the second csv file")
-    writing_to_csv(*("/tmp/example2.csv",final_list_2))
+    writing_to_csv(*("/Users/danie/new_thing/example2.csv",final_list_2))
     logger.info("successfully load two file")
 
 if __name__ == "__main__":
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     start_time = time.perf_counter()
     writing_2_file_to_csv("/Users/danie/new_project_processing_diff_some_pdf_file/example.txt")
     end_time = time.perf_counter()
-    logger.info(f'Extract CPU usage {psutil.cpu_percent()}')
+    logger.info(f'Extract CPU usage {psutil.cpu_percent()}%')
     logger.info(f"writing pdf txt to csv have used {end_time - start_time}s")
 
             
