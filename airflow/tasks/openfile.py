@@ -53,13 +53,13 @@ def writing_2_file_to_csv(file):
     final_data = list(map(lambda x: x.replace("—","0"), final_data))
 
     logger.info("now writing the csv file")
-    writing_to_csv(*("/tmp/world_data4.csv",final_data))
+    writing_to_csv(*("/tmp/world_data5.csv",final_data))
     logger.info("successfully load two file")
 
 if __name__ == "__main__":
     logger.info("now performing the transforming part!")
     start_time = time.perf_counter()
-    writing_2_file_to_csv("/Users/danie/new_project_processing_diff_some_pdf_file/example.txt")
+    writing_2_file_to_csv("/Users/danie/new_project_processing_diff_some_pdf_file/example_2.txt")
     end_time = time.perf_counter()
     logger.info(f'Extract CPU usage {psutil.cpu_percent()}%')
     logger.info(f"writing pdf txt to csv have used {end_time - start_time}s")

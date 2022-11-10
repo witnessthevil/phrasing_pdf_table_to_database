@@ -18,7 +18,7 @@ create_table_sql = open(f"{script_path}/createtable.sql","r").read()
 load_data_sql = open(f"{script_path}/loadcsvtoworlddata.sql","r")\
         .read().format( 
         bucket_name=config["bucket_name"],
-        file_name="file_reset3.csv",
+        file_name="file_reset5.csv",
         access_key=config["access_key"],
         secret_key=config["secret_key"]
 )

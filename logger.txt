@@ -53,3 +53,4 @@
 2022-11-10 18:48:15,348  - upload_to_s3.py - INFO - now performing the load part!
 2022-11-10 18:48:17,791  - upload_to_s3.py - INFO - Extract CPU usage 21.4%
 2022-11-10 18:48:17,791  - upload_to_s3.py - INFO - writing csv to s3 have used 2.442380291002337s
+2022-11-10 18:51:50,034  - openfile.py - INFO - now performing the transforming part!
