@@ -1,0 +1,13 @@
+2022-11-10 10:12:53,915  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 10:12:53,918  - openfile.py - INFO - now writing the first csv file
+2022-11-10 10:12:53,919  - openfile.py - INFO - now writing the second csv file
+2022-11-10 10:12:53,920  - openfile.py - INFO - successfully load two file
+2022-11-10 10:12:53,920  - openfile.py - INFO - Extract CPU usage 33.3%
+2022-11-10 10:12:53,920  - openfile.py - INFO - writing pdf txt to csv have used 0.004396500007715076s
+2022-11-10 10:13:03,361  - upload_to_s3.py - INFO - now performing the transforming part!
+2022-11-10 10:13:05,075  - upload_to_s3.py - INFO - Extract CPU usage 17.6%
+2022-11-10 10:13:05,077  - upload_to_s3.py - INFO - writing pdf txt to csv have used 1.7104085409955587s
+2022-11-10 10:15:33,246  - upload_to_s3.py - INFO - now performing the load part!
+2022-11-10 10:15:36,419  - upload_to_s3.py - INFO - Extract CPU usage 11.3%
+2022-11-10 10:15:36,419  - upload_to_s3.py - INFO - writing csv to s3 have used 3.1719952919811476s
+2022-11-10 12:05:59,481  - clientserver.py - INFO - Closing down clientserver connection

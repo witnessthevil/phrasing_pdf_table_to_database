@@ -10,9 +10,13 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 import java.io.FileNotFoundException
+import org.xml.sax.Attributes
 
 object Main extends App {
+
   val handler = new BodyContentHandler()
+
+  
 
   val metadata = new Metadata()
 

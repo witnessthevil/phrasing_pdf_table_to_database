@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "new_project_processing_diff_some_pdf_file-build",
-        "directory": "/Users/danie/new_project_processing_diff_some_pdf_file/project",
-        "workspaceDir": "/Users/danie/new_project_processing_diff_some_pdf_file/project",
+        "name": "new_thing-build",
+        "directory": "/Users/danie/new_thing/project",
+        "workspaceDir": "/Users/danie/new_thing/project",
         "sources": [
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/scala",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/scala-2.12",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/scala-2",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/java",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/scala-sbt-1.0",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/Users/danie/new_thing/project/src/main/scala",
+            "/Users/danie/new_thing/project/src/main/scala-2.12",
+            "/Users/danie/new_thing/project/src/main/scala-2",
+            "/Users/danie/new_thing/project/src/main/java",
+            "/Users/danie/new_thing/project/src/main/scala-sbt-1.0",
+            "/Users/danie/new_thing/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/Users/danie/new_project_processing_diff_some_pdf_file/project/.bloop/new_project_processing_diff_some_pdf_file-build",
-        "classesDir": "/Users/danie/new_project_processing_diff_some_pdf_file/project/.bloop/new_project_processing_diff_some_pdf_file-build/scala-2.12/sbt-1.0/classes",
+        "out": "/Users/danie/new_thing/project/.bloop/new_thing-build",
+        "classesDir": "/Users/danie/new_thing/project/.bloop/new_thing-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/src/main/resources",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/Users/danie/new_thing/project/src/main/resources",
+            "/Users/danie/new_thing/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -200,7 +200,7 @@
             "config": {
                 "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/danie/new_project_processing_diff_some_pdf_file/project"
+                    "-Duser.dir=/Users/danie/new_thing/project"
                 ]
             },
             "mainClass": [

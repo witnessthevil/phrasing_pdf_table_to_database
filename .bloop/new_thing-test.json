@@ -1,21 +1,21 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "new_project_processing_diff_some_pdf_file-test",
-        "directory": "/Users/danie/new_project_processing_diff_some_pdf_file",
-        "workspaceDir": "/Users/danie/new_project_processing_diff_some_pdf_file",
+        "name": "new_thing-test",
+        "directory": "/Users/danie/new_thing",
+        "workspaceDir": "/Users/danie/new_thing",
         "sources": [
-            "/Users/danie/new_project_processing_diff_some_pdf_file/src/test/scala",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/src/test/scala-2.13",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/src/test/scala-2",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/src/test/java",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/target/scala-2.13/src_managed/test"
+            "/Users/danie/new_thing/src/test/scala",
+            "/Users/danie/new_thing/src/test/scala-2.13",
+            "/Users/danie/new_thing/src/test/scala-2",
+            "/Users/danie/new_thing/src/test/java",
+            "/Users/danie/new_thing/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
-            "new_project_processing_diff_some_pdf_file"
+            "new_thing"
         ],
         "classpath": [
-            "/Users/danie/new_project_processing_diff_some_pdf_file/.bloop/new_project_processing_diff_some_pdf_file/scala-2.13/classes",
+            "/Users/danie/new_thing/.bloop/new_thing/scala-2.13/classes",
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.1.1/scala-parser-combinators_2.13-2.1.1.jar",
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/tika/tika-core/2.6.0/tika-core-2.6.0.jar",
@@ -39,11 +39,11 @@
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar",
             "/Users/danie/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar"
         ],
-        "out": "/Users/danie/new_project_processing_diff_some_pdf_file/.bloop/new_project_processing_diff_some_pdf_file",
-        "classesDir": "/Users/danie/new_project_processing_diff_some_pdf_file/.bloop/new_project_processing_diff_some_pdf_file/scala-2.13/test-classes",
+        "out": "/Users/danie/new_thing/.bloop/new_thing",
+        "classesDir": "/Users/danie/new_thing/.bloop/new_thing/scala-2.13/test-classes",
         "resources": [
-            "/Users/danie/new_project_processing_diff_some_pdf_file/src/test/resources",
-            "/Users/danie/new_project_processing_diff_some_pdf_file/target/scala-2.13/resource_managed/test"
+            "/Users/danie/new_thing/src/test/resources",
+            "/Users/danie/new_thing/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -122,7 +122,7 @@
             "config": {
                 "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/danie/new_project_processing_diff_some_pdf_file"
+                    "-Duser.dir=/Users/danie/new_thing"
                 ]
             },
             "mainClass": [
