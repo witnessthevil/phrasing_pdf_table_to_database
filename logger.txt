@@ -54,3 +54,15 @@
 2022-11-10 18:48:17,791  - upload_to_s3.py - INFO - Extract CPU usage 21.4%
 2022-11-10 18:48:17,791  - upload_to_s3.py - INFO - writing csv to s3 have used 2.442380291002337s
 2022-11-10 18:51:50,034  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 18:52:18,755  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 18:53:05,710  - openfile.py - INFO - now performing the transforming part!
+2022-11-10 18:53:05,714  - openfile.py - INFO - now writing the csv file
+2022-11-10 18:53:05,716  - openfile.py - INFO - successfully load two file
+2022-11-10 18:53:05,716  - openfile.py - INFO - Extract CPU usage 66.7%
+2022-11-10 18:53:05,716  - openfile.py - INFO - writing pdf txt to csv have used 0.005369082995457575s
+2022-11-10 18:53:10,597  - upload_to_s3.py - INFO - now performing the load part!
+2022-11-10 18:53:12,354  - upload_to_s3.py - INFO - Extract CPU usage 13.9%
+2022-11-10 18:53:12,354  - upload_to_s3.py - INFO - writing csv to s3 have used 1.7562872089911252s
+2022-11-10 18:53:21,777  - s3toredshift.py - INFO - now load csv from s3 to redshift
+2022-11-10 18:53:36,271  - s3toredshift.py - INFO - Extract CPU usage 10.1%
+2022-11-10 18:53:36,275  - s3toredshift.py - INFO - writing csv from s3 to redshift have used 14.492247457994381s
