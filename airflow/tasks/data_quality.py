@@ -4,6 +4,8 @@ from pydeequ.checks import *
 from pydeequ.verification import *
 from Logger import Logger
 from pyspark.sql import SparkSession
+
+#sending quality metadata to dynamo db
 logger = Logger().get_logger(__name__)
 
 def checking_data_quality(file):
@@ -14,5 +16,6 @@ def checking_data_quality(file):
     df.show()
     #result = VerificationSuite(spark).onData(df).addCheck()
 
-checking_data_quality("/Users/danie/new_thing/example1.csv")
+if __name__ == "__main__":
+    checking_data_quality("/Users/danie/new_thing/example1.csv")
 

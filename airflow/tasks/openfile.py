@@ -32,21 +32,27 @@ def writing_2_file_to_csv(file):
     for i in targeted_table:
         for idx,char2 in enumerate(i):
             if char2.isdigit() or char2 == "—":
-                targeted_index.append((i[:idx].strip(),i[idx:].replace(" ",",")))
+                targeted_index.append({i[:idx].strip():i[idx:].replace(" ",",")})
                 break
-    final_list = list(map(lambda x: x[0] + "," + x[1],targeted_index))
      
 
-    final_list_1 = [line for line in final_list if line.count(",") == 14]
-    final_list_2 = [line for line in final_list if line.count(",") == 10]
+    final_list_1 = [line for line in targeted_index if list(line.values())[0].count(",") == 13]
+    final_list_2 = [line for line in targeted_index if list(line.values())[0].count(",") == 9]
     def writing_to_csv(file_name,list):
         with open(file_name,"a") as csvfile:
             for i in list:
                 csvfile.write(i + '\n')
-    logger.info("now writing the first csv file")
-    writing_to_csv(*("/tmp/example1.csv",final_list_1))
-    logger.info("now writing the second csv file")
-    writing_to_csv(*("/tmp/example2.csv",final_list_2))
+    
+    merge_list = list(zip(final_list_1,final_list_2))
+
+    final_data = list(map(lambda d1: list(d1[0].keys())[0] 
+                            + ',' + list(d1[0].values())[0] 
+                            + "," + list(d1[1].values())[0]
+                            ,merge_list))
+    
+
+    logger.info("now writing the csv file")
+    writing_to_csv(*("/Users/danie/new_thing/example.csv",final_data))
     logger.info("successfully load two file")
 
 if __name__ == "__main__":
