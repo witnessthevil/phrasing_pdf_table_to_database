@@ -21,7 +21,7 @@ def writing_2_file_to_csv(file):
     data_lines = select_data_page(file)
     targeted_table = []
     targeted_index = []
-    for line in data_lines:
+    for idx,line in enumerate(data_lines):
         counter = 0 
         for char in line:
             if char.isspace():
