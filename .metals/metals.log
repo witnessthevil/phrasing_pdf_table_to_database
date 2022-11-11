@@ -717,3 +717,4 @@ scala.reflect.internal.Types$TypeError: illegal cyclic reference involving objec
 警告: Unmatched cancel notification for request id 488
 2022.11.10 12:23:54 INFO  compiling new_thing (1 scala source)
 2022.11.10 12:23:57 INFO  time: compiled new_thing in 2.77s
+2022.11.12 02:35:32 INFO  time: code lens generation in 34s

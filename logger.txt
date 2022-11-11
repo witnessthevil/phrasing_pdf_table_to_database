@@ -66,3 +66,42 @@
 2022-11-10 18:53:21,777  - s3toredshift.py - INFO - now load csv from s3 to redshift
 2022-11-10 18:53:36,271  - s3toredshift.py - INFO - Extract CPU usage 10.1%
 2022-11-10 18:53:36,275  - s3toredshift.py - INFO - writing csv from s3 to redshift have used 14.492247457994381s
+2022-11-12 03:15:54,067  - data_quality.py - INFO - starting spark session
+2022-11-12 03:16:05,108  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:16:49,485  - data_quality.py - INFO - starting spark session
+2022-11-12 03:17:01,191  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:17:47,240  - data_quality.py - INFO - starting spark session
+2022-11-12 03:17:56,865  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:18:55,156  - data_quality.py - INFO - starting spark session
+2022-11-12 03:19:09,053  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:29:53,252  - data_quality.py - INFO - starting spark session
+2022-11-12 03:30:08,070  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:31:25,388  - data_quality.py - INFO - starting spark session
+2022-11-12 03:31:37,625  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:31:54,665  - data_quality.py - INFO - starting spark session
+2022-11-12 03:32:06,691  - clientserver.py - INFO - Closing down clientserver connection
+2022-11-12 03:39:34,721  - data_quality.py - INFO - starting spark session
+2022-11-12 03:41:08,813  - data_quality.py - INFO - starting spark session
+2022-11-12 03:43:56,035  - data_quality.py - INFO - starting spark session
+2022-11-12 03:56:50,674  - data_quality.py - INFO - starting spark session
+2022-11-12 03:58:21,228  - data_quality.py - INFO - starting spark session
+2022-11-12 04:02:40,774  - data_quality.py - INFO - starting spark session
+2022-11-12 04:03:59,846  - data_quality.py - INFO - starting spark session
+2022-11-12 04:04:24,373  - java_gateway.py - INFO - Callback Server Starting
+2022-11-12 04:04:24,376  - java_gateway.py - INFO - Socket listening on ('127.0.0.1', 25334)
+2022-11-12 04:05:31,809  - data_quality.py - INFO - starting spark session
+2022-11-12 04:05:57,340  - java_gateway.py - INFO - Callback Server Starting
+2022-11-12 04:05:57,341  - java_gateway.py - INFO - Socket listening on ('127.0.0.1', 25334)
+2022-11-12 04:06:51,160  - data_quality.py - INFO - starting spark session
+2022-11-12 04:07:34,245  - java_gateway.py - INFO - Callback Server Starting
+2022-11-12 04:07:34,249  - java_gateway.py - INFO - Socket listening on ('127.0.0.1', 25334)
+2022-11-12 04:10:53,458  - data_quality.py - INFO - starting spark session
+2022-11-12 04:11:31,180  - java_gateway.py - INFO - Callback Server Starting
+2022-11-12 04:11:31,181  - java_gateway.py - INFO - Socket listening on ('127.0.0.1', 25334)
+2022-11-12 04:15:37,434  - data_quality.py - INFO - starting spark session
+2022-11-12 04:16:17,449  - java_gateway.py - INFO - Callback Server Starting
+2022-11-12 04:16:17,454  - java_gateway.py - INFO - Socket listening on ('127.0.0.1', 25334)
+2022-11-12 04:16:32,518  - java_gateway.py - INFO - Callback Connection ready to receive messages
+2022-11-12 04:16:32,521  - java_gateway.py - INFO - Received command c on object id p0
+2022-11-12 04:17:21,897  - java_gateway.py - INFO - Received command  on object id 
+2022-11-12 04:17:21,909  - java_gateway.py - INFO - Closing down callback connection
